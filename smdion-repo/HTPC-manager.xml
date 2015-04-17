@@ -9,7 +9,7 @@
     [b]EDGE[/b] : Add "1" to the Variable Value without the quotes to use the EDGE version (Cannot use both NZBDRONE and EDGE) [br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/smdion/docker-htpcmanager/</Registry>
-  <Repository>smdion/docker-htpcmanager</Repository>
+  <Repository>evilspectre/docker-htpcmanager</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
