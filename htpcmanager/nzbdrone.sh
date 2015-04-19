@@ -6,5 +6,5 @@ if [ -z "$NZBDRONE" ]; then
 else
   apt-get install -qy git
   rm -rf /opt/HTPC-Manager-0.11.0
-  git clone -b master2 https://github.com/Hellowlol/HTPC-Manager.git /opt/HTPC-Manager-0.11.0
+  git clone -b tempaddnewusr https://github.com/Hellowlol/HTPC-Manager.git /opt/HTPC-Manager-0.11.0
 fi
