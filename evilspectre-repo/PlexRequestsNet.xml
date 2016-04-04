@@ -1,1 +1,31 @@
-Test
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>PlexRequests.Net</Name>
+  <Description>
+    PlexRequests.Net
+  </Description>
+  <Registry>https://hub.docker.com/r/rogueosb/plexrequestsnet/</Registry>
+  <Repository>rogueosb/plexrequestsnet</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3579</HostPort>
+        <ContainerPort>3579</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3579]/</WebUI>
+  <Banner>http://i.imgur.com/chCQ304.jpg</Banner>
+  <Icon>http://i.imgur.com/chCQ304.jpg</Icon>
+</Container>
